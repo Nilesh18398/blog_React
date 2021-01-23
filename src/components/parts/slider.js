@@ -38,7 +38,7 @@ const Slider = () => {
 
             <div className="item">
               <div className="news-post image-post">
-                <img src="upload/blog/home5/sl2.jpg" alt="" />
+                <img src="../../../upload/blog/home5/sl2.jpg" alt="" />
                 <div className="hover-post">
                   <div>
                     <a className="category-link" href="#">

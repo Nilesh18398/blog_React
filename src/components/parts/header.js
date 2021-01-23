@@ -1,4 +1,6 @@
 import React from "react";
+require("../../../css/mite-assets.min.css");
+require("../../../css/style.css");
 
 const header = () => {
   return (
@@ -7,7 +9,7 @@ const header = () => {
         <div className="container">
           <div className="inner-logo-place">
             <a className="navbar-brand" href="index.html">
-              <img src="/parts/images/logo.png" alt="" />
+              <img src={require("./image/logo.png")} alt="" />
             </a>
           </div>
         </div>
@@ -121,7 +123,7 @@ const header = () => {
                 <div className="mega-dropdown">
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/c10.jpg" alt="" />
+                      <img src={require("./upload/blog/c10.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">
@@ -137,7 +139,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/c11.jpg" alt="" />
+                      <img src={require("./upload/blog/c11.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">Cras ornare tristique elit.</a>
@@ -151,7 +153,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/c12.jpg" alt="" />
+                      <img src={require("./upload/blog/c12.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">Praesent placerat risus.</a>
@@ -165,7 +167,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/c13.jpg" alt="" />
+                      <img src={require("./upload/blog/c13.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">
@@ -181,7 +183,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/c15.jpg" alt="" />
+                      <img src={require("./upload/blog/c15.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">
@@ -213,7 +215,7 @@ const header = () => {
                   </ul>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/p5.jpg" alt="" />
+                      <img src={require("./upload/blog/p5.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">Cras ornare tristique elit.</a>
@@ -227,7 +229,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/p6.jpg" alt="" />
+                      <img src={require("./upload/blog/p6.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">Praesent placerat risus.</a>
@@ -241,7 +243,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/p7.jpg" alt="" />
+                      <img src={require("./upload/blog/p7.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">
@@ -257,7 +259,7 @@ const header = () => {
                   </div>
                   <div className="news-post standard-post">
                     <div className="image-holder">
-                      <img src="upload/blog/p8.jpg" alt="" />
+                      <img src={require("./upload/blog/p8.jpg")} alt="" />
                     </div>
                     <h2>
                       <a href="single-post.html">
